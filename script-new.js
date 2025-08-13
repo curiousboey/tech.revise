@@ -210,6 +210,11 @@ quizBtn.addEventListener('click', () => {
     }
 });
 
+// Logo click functionality - return to dashboard/home page
+document.getElementById('home-logo').addEventListener('click', () => {
+    showPage('dashboard');
+});
+
 // Initial load
 document.addEventListener('DOMContentLoaded', () => {
     showPage('dashboard');
