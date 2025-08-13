@@ -47,7 +47,6 @@ An advanced, interactive quiz application featuring CompTIA Network+ fundamental
 ![Quiz Demo](demo-screenshot.png)
 
 **Live Demo:** [Tech.Revise on SaltyHash.tech](https://www.saltyhash.tech/lab)  
-**Standalone Version:** [GitHub Pages](https://curiousboey.github.io/tech.revise)  
 **Main Site:** [SaltyHash.tech](https://saltyhash.tech)
 
 ## 🛠️ Installation
