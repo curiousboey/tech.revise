@@ -64,7 +64,7 @@ We welcome new quiz questions! Please follow these guidelines:
 
 1. **Fork the repository**
    ```bash
-   git clone https://github.com/your-username/tech.revise.git
+   git clone https://github.com/curiousboey/tech.revise.git
    cd tech.revise
    ```
 
@@ -199,7 +199,7 @@ If you need assistance:
 4. Open a new issue with the "question" label
 5. Join our community discussions and developer channels
 
-For direct communication about significant contributions or partnerships, contact us at [hello@saltyhash.tech](mailto:hello@saltyhash.tech).
+For direct communication about significant contributions or partnerships, contact us at [LinkedIn](https://www.linkedin.com/in/bhupendra-budha/).
 
 ## 📄 Code of Conduct
 
