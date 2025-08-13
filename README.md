@@ -237,10 +237,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **SaltyHash | Tech.Revise**
 - 🌐 **Main Website:** [SaltyHash.tech](https://saltyhash.tech)
-- 📚 **Quiz Platform:** [SaltyHash.tech/quiz](https://saltyhash.tech/quiz)
+- 📚 **Quiz Platform:** [SaltyHash.tech/quiz](https://saltyhash.tech/lab)
 - 💻 **GitHub:** [@curiousboey](https://github.com/curiousboey)
 - 📁 **Repository:** [tech.revise](https://github.com/curiousboey/tech.revise)
-- 📧 **Contact:** [hello@saltyhash.tech](mailto:hello@saltyhash.tech)
+- 📧 **Contact:** [LinkedIn](https://www.linkedin.com/in/bhupendra-budha/)
 
 ## 🙏 Acknowledgments
 
