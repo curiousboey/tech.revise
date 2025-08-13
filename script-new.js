@@ -213,6 +213,9 @@ quizBtn.addEventListener('click', () => {
 // Logo click functionality - return to dashboard/home page
 document.getElementById('home-logo').addEventListener('click', () => {
     showPage('dashboard');
+    // Ensure navigation buttons are updated correctly
+    dashboardBtn.classList.add('active');
+    quizBtn.classList.remove('active');
 });
 
 // Initial load
