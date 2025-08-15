@@ -6,9 +6,9 @@ Thank you for your interest in contributing to Tech.Revise, part of the **SaltyH
 
 Tech.Revise is a core component of the larger SaltyHash.tech educational platform. Your contributions will help shape the future of interactive learning across:
 
-- **Current Categories:** Network Fundamentals, Web/App Development
+- **Current Categories:** Network Fundamentals, Web/App Development, NMAP & Network Security
 - **Future Expansions:** Cloud Computing, Cybersecurity, AI/ML, DevOps, and 15+ more categories
-- **Platform Growth:** From 100+ questions to 1000+ comprehensive questions
+- **Platform Growth:** From 150+ questions to 1000+ comprehensive questions
 - **Community Impact:** Supporting learners worldwide through quality educational content
 
 ## 🤝 How to Contribute

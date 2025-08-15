@@ -4,7 +4,8 @@
 // Quiz data storage - questions are loaded from external files
 const quizData = {
     'network-fundamentals': networkFundamentalsQuestions,
-    'web-app-development': webAppDevQuestions
+    'web-app-development': webAppDevQuestions,
+    'nmap-security': nmapQuestions
 };
 
 let currentQuizType = 'network-fundamentals';
@@ -82,6 +83,8 @@ function startQuiz(quizType = 'network-fundamentals') {
         quizTitle.textContent = 'Network Fundamentals';
     } else if (currentQuizType === 'web-app-development') {
         quizTitle.textContent = 'Web/App Development';
+    } else if (currentQuizType === 'nmap-security') {
+        quizTitle.textContent = 'NMAP & Network Security';
     }
     
     // Randomize the order of the questions

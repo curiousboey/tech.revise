@@ -16,6 +16,7 @@ An advanced, interactive quiz application featuring CompTIA Network+ fundamental
 - **📚 Current Quiz Categories (More Coming Soon!)**
   - Network Fundamentals (50 CompTIA Network+ questions)
   - Web/App Development (50 comprehensive questions)
+  - NMAP & Network Security (50 practical questions)
   - *Future: Cloud Computing, Cybersecurity, DevOps, AI/ML, and more!*
 
 - **🎯 Interactive Learning Experience**
@@ -86,6 +87,7 @@ tech.revise/
 ├── script-new.js                  # Main application logic
 ├── network-fundamentals-quiz.js   # Network+ quiz questions (50)
 ├── web-app-dev-quiz.js           # Web development quiz questions (50)
+├── nmap-quiz.js                  # NMAP & Network Security quiz questions (50)
 ├── background.jpg                 # Background image
 ├── README.md                      # Project documentation
 └── LICENSE                        # MIT License
@@ -116,6 +118,17 @@ tech.revise/
   - DevOps and CI/CD Pipelines
   - Web Security Best Practices
   - Modern Development Tools and Workflows
+
+#### NMAP & Network Security
+- **Topics Covered:**
+  - NMAP Scanning Techniques and Command Options
+  - Network Discovery and Host Detection
+  - Port Scanning Methods (TCP, UDP, SYN scans)
+  - Service and Version Detection
+  - Operating System Fingerprinting
+  - Stealth Scanning and IDS Evasion
+  - Network Security Assessment
+  - Ethical Hacking and Penetration Testing Basics
 
 ### 🚀 Future Quiz Categories (Coming to SaltyHash.tech)
 
@@ -253,9 +266,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📊 Platform Statistics
 
-- **Current Questions:** 100+ (Network+ and Web Development)
+- **Current Questions:** 150+ (Network+, Web Development, and NMAP Security)
 - **Planned Questions:** 1000+ across all categories
-- **Active Categories:** 2 (expandable architecture)
+- **Active Categories:** 3 (expandable architecture)
 - **Future Categories:** 15+ planned for SaltyHash.tech
 - **Technologies:** HTML5, CSS3, Vanilla JavaScript
 - **Design Philosophy:** Glassmorphism with responsive, accessible layout
