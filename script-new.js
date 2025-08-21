@@ -1,11 +1,14 @@
 // Network fundamentals quiz questions are loaded from network-fundamentals-quiz.js
 // Web development quiz questions are loaded from web-app-dev-quiz.js
+// NMAP security quiz questions are loaded from nmap-quiz.js
+// Operating Systems quiz questions are loaded from OS-quiz.js
 
 // Quiz data storage - questions are loaded from external files
 const quizData = {
     'network-fundamentals': networkFundamentalsQuestions,
     'web-app-development': webAppDevQuestions,
-    'nmap-security': nmapQuestions
+    'nmap-security': nmapQuestions,
+    'operating-systems': osQuizQuestions
 };
 
 let currentQuizType = 'network-fundamentals';
@@ -85,6 +88,8 @@ function startQuiz(quizType = 'network-fundamentals') {
         quizTitle.textContent = 'Web/App Development';
     } else if (currentQuizType === 'nmap-security') {
         quizTitle.textContent = 'NMAP & Network Security';
+    } else if (currentQuizType === 'operating-systems') {
+        quizTitle.textContent = 'Operating Systems';
     }
     
     // Randomize the order of the questions
@@ -221,7 +226,19 @@ document.getElementById('home-logo').addEventListener('click', () => {
     quizBtn.classList.remove('active');
 });
 
+// Function to update question counts dynamically
+function updateQuestionCounts() {
+    // Update each quiz card with actual question count
+    Object.keys(quizData).forEach(quizId => {
+        const countElement = document.querySelector(`[data-quiz-count="${quizId}"]`);
+        if (countElement && quizData[quizId]) {
+            countElement.textContent = quizData[quizId].length;
+        }
+    });
+}
+
 // Initial load
 document.addEventListener('DOMContentLoaded', () => {
     showPage('dashboard');
+    updateQuestionCounts(); // Update question counts on page load
 });
